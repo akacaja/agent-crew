@@ -1,0 +1,12 @@
+{
+  "name": "crew-panel",
+  "version": "0.6.0",
+  "description": "Painel visual da pipeline do agent-crew: etapas do card, linha de status, aviso quando a equipe espera você e envio de feedback. / Visual pipeline panel for agent-crew.",
+  "author": {
+    "name": "Carolina Cajazeira"
+  },
+  "homepage": "https://github.com/akacaja/agent-crew",
+  "repository": "https://github.com/akacaja/agent-crew",
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}

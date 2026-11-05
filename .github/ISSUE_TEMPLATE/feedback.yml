@@ -1,0 +1,33 @@
+name: Feedback
+description: Conte o que achou do agent-crew / Tell us what you think of agent-crew
+title: "Feedback: "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigada pelo feedback! Este espaço é público: não cole código, senhas, tokens nem dados da sua empresa.
+        Thank you for the feedback! This page is public: don't paste code, passwords, tokens or company data.
+  - type: dropdown
+    id: rating
+    attributes:
+      label: Avaliação / Rating
+      options:
+        - Gostei / Like
+        - Não gostei / Dislike
+        - Sem nota / No rating
+    validations:
+      required: true
+  - type: textarea
+    id: comment
+    attributes:
+      label: Comentário / Comment
+      description: O que funcionou, o que travou, o que faltou. / What worked, what got stuck, what was missing.
+  - type: input
+    id: version
+    attributes:
+      label: Versão do painel / Panel version
+  - type: input
+    id: editor
+    attributes:
+      label: Editor (vscode, cursor, terminal…)
