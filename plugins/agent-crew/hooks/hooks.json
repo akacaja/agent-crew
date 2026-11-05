@@ -1,0 +1,27 @@
+{
+  "description": "Anota arquivos novos para o mentor e lembra as regras do pipeline a cada sessão",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/scripts/track-new-file.sh\""
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh \"${CLAUDE_PLUGIN_ROOT}/scripts/session-reminder.sh\""
+          }
+        ]
+      }
+    ]
+  }
+}

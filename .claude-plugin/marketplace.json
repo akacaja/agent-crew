@@ -1,0 +1,21 @@
+{
+  "name": "agent-crew",
+  "owner": {
+    "name": "Carolina Cajazeira"
+  },
+  "metadata": {
+    "description": "Kit de agentes com mentor para desenvolver com IA / Agent kit with a mentor for building with AI"
+  },
+  "plugins": [
+    {
+      "name": "agent-crew",
+      "source": "./plugins/agent-crew",
+      "description": "Pipeline de agentes especialistas e um mentor que explica tudo no seu nível / Specialist agent pipeline with a mentor that explains everything at your level"
+    },
+    {
+      "name": "crew-panel",
+      "source": "./plugins/crew-panel",
+      "description": "Painel visual da pipeline na IDE, aviso quando o kit espera você e envio de feedback / Visual pipeline panel in your IDE, a heads-up when the kit waits for you, and feedback"
+    }
+  ]
+}

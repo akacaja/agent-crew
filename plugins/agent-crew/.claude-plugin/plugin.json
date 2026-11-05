@@ -1,0 +1,23 @@
+{
+  "name": "agent-crew",
+  "version": "0.9.0",
+  "description": "Pipeline de agentes especialistas (explorer, planner, implementer, tester, reviewer, documenter) com um modelo por tipo de tarefa, e um mentor que explica cada etapa no seu nível e no seu idioma. / A pipeline of specialist agents with one model per task, plus a mentor that explains every step at your level and in your language.",
+  "author": {
+    "name": "Carolina Cajazeira"
+  },
+  "homepage": "https://github.com/akacaja/agent-crew",
+  "repository": "https://github.com/akacaja/agent-crew",
+  "license": "MIT",
+  "keywords": [
+    "agentes",
+    "agents",
+    "pipeline",
+    "mentor",
+    "iniciantes",
+    "beginners",
+    "design system"
+  ],
+  "dependencies": [
+    "crew-panel"
+  ]
+}
